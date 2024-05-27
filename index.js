@@ -58,3 +58,5 @@ bot.on("polling_error", (err) => {
 server.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
+
+app.listen(process.env.PORT || 6969 );
